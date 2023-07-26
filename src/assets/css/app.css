@@ -1,0 +1,89 @@
+/*@font-face*/
+/*{*/
+/*    font-family: nexzhu;*/
+/*    src: url("@/assets/fonts/blockdole.woff2");*/
+
+/*    -webkit-font-smoothing: antialiased;*/
+/*    -moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+/**{*/
+/*    font-family: nexzhu;*/
+/*}*/
+body {
+    /*background: #F7F9FA url('@/assets/bg_img.png') repeat!important*/
+    background-color: #f7f7fb;
+}
+hr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #EEF2F5;
+    margin:10px 0;
+}
+.box {
+    background-color: white;
+    border-radius: 6px;
+    /*box-shadow: 2px 1px 12px 3px #eee;*/
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.02);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    overflow: hidden;
+}
+
+.is-flex{
+    display: flex;
+}
+.is-relative{
+    position: relative;
+}
+is-absolute{
+    position: absolute;
+}
+
+
+
+
+.shadow{
+    box-shadow: 2px 1px 12px 3px #eee;
+}
+
+.image-scale{
+    transition: all 800ms ease-in-out;
+}
+.image-scale:hover{
+    transform: scale(1.1);
+}
+.ellipsis {
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.is-ellipsis-1 {
+    -webkit-line-clamp: 1;
+}
+
+.is-ellipsis-2 {
+    -webkit-line-clamp: 2;
+}
+
+.box-mask{
+    background-color: rgb(0 0 0 / 30%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+.has-text-grey {
+    color: #7a7a7a !important;
+}
+.p-0{
+    padding: 0;
+}
+.m-0{
+    margin: 0;
+}
